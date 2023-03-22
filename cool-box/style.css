@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+div {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+
+  border: 1px solid wheat;
+
+  background: linear-gradient(to bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.2) 100%);
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), inset 2px 2px 4px rgba(255, 255, 255, 0.5), inset -2px -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.125rem;
+  color: #006aff;
+  text-shadow: 1px 1px #000000;
+}
